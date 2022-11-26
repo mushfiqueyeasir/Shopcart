@@ -4,7 +4,7 @@ const ProductCard = ({ data }) => {
   const { price, discount, name, picture } = data;
   return (
     <div className="">
-      <figure>
+      <figure className="flex justify-center">
         <img src={picture} alt="Shoes" />
       </figure>
       <div className="card-body">

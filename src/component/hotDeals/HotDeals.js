@@ -8,8 +8,8 @@ const HotDeals = () => {
     return <h2>Loading....</h2>;
   }
   return (
-    <div className="container mx-auto py-7">
-      <h2 className="font-bold ">Today's hot deals</h2>
+    <div className="container mx-auto py-7 px-2">
+      <h2 className="font-bold text-xl pb-3">Today's hot deals</h2>
       <hr className="dotted" />
 
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-2 pt-4">

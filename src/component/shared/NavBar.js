@@ -20,7 +20,7 @@ const NavBar = () => {
   ];
   return (
     <div className=" container mx-auto py-3">
-      <div className="flex justify-between pb-3">
+      <div className="flex justify-between pb-3 px-2">
         <p className="cursor-pointer normal-case text-2xl font-base">
           <span className="font-[900]">shop</span>cart
         </p>
@@ -49,7 +49,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div className="flex justify-around gap-2 pt-5">
+      <div className="hidden lg:flex justify-around gap-2 pt-5">
         {menu.map((item, index) => (
           <button className="text-[#606060] font-medium">{item}</button>
         ))}

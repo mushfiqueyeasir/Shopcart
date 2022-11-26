@@ -24,13 +24,13 @@ const Review = () => {
   }
 
   return (
-    <div className="container mx-auto py-7">
+    <div className="container mx-auto py-7 px-2">
       <h2 className="font-bold text-xl pb-3">Review your purchase</h2>
       <hr className="dotted" />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 pt-4">
         {data.map((item, index) => (
-          <div className="rounded-2xl shadow-lg p-2 grid grid-cols-2 items-center">
+          <div className="rounded-2xl shadow-lg p-2 grid grid-cols-1 lg:grid-cols-2 items-center">
             <div>
               <img src={item.image} alt="" />
             </div>

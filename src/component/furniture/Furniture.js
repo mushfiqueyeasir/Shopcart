@@ -9,11 +9,11 @@ const Furniture = () => {
     return <h2>Loading....</h2>;
   }
   return (
-    <div className="container mx-auto py-7">
+    <div className="container mx-auto py-7 px-2">
       <div className="py-7 flex justify-center">
         <img src={furniture} alt="" />
       </div>
-      <h2 className="font-bold ">Deals on furniture</h2>
+      <h2 className="font-bold text-xl pb-3">Deals on furniture</h2>
       <hr className="dotted" />
 
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-2 pt-4">

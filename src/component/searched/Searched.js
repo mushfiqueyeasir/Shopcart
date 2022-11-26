@@ -8,13 +8,12 @@ import five from "../../resource/searched/five.png";
 const Searched = () => {
   const data = [one, two, three, four, five];
   return (
-    <div className="container mx-auto py-7">
-      <h2 className="font-bold ">Today's hot deals</h2>
+    <div className="container mx-auto py-7 px-2">
+      <h2 className="font-bold text-2lx pb-3 ">Your searched items</h2>
       <hr className="dotted" />
 
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-2 pt-4">
+      <div className="grid grid-cols-2 lg:grid-cols-5 justify-items-center gap-2 pt-4">
         {data.map((item, index) => (
-          //   <ProductCard key={index} data={item} />
           <img src={item} alt="" />
         ))}
       </div>
