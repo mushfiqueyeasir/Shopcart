@@ -1,2 +1,2 @@
-<a href="https://moonlit-pithivier-a8ebdf.netlify.app/"><h1>Live Link</h1></a>
+<h1><a href="https://moonlit-pithivier-a8ebdf.netlify.app/">Live Link</a></h1>
 <img src="./ss.png">
